@@ -2,7 +2,8 @@
 设置用于 DDNS 解析的二级域名
 在 Cloudflare 中新建一个A记录，如：ddns.yourdomain.com，指向 1.1.1.1，并确保流量不走 CloudFlare（云朵变灰）
 下载 DNNS 脚本
-```curl https://raw.githubusercontent.com/MaleiSIyin/cfv4-ddns/master/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x /root/cf-v4-ddns.sh
+```
+curl https://raw.githubusercontent.com/MaleiSIyin/cfv4-ddns/master/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x /root/cf-v4-ddns.sh
 ```
 
 修改 DDNS 脚本并补充相关信息
