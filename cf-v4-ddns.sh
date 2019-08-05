@@ -33,10 +33,10 @@ CFKEY=
 CFUSER=
 
 # Zone name, eg: github.com
-CFZONE_NAME=
+CFZONE_NAME=maleisiyin.online
 
 # Hostname to update, eg: www.github.com
-CFRECORD_NAME=
+CFRECORD_NAME=hinet
 
 # Cloudflare TTL for record, between 120 and 86400 seconds
 CFTTL=120
